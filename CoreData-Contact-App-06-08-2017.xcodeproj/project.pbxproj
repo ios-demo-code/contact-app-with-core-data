@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		828BB9EE1F36A7780099E626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828BB9ED1F36A7780099E626 /* AppDelegate.swift */; };
-		828BB9F01F36A7780099E626 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828BB9EF1F36A7780099E626 /* ViewController.swift */; };
 		828BB9F31F36A7780099E626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828BB9F11F36A7780099E626 /* Main.storyboard */; };
 		828BB9F61F36A7780099E626 /* CoreData_Contact_App_06_08_2017.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 828BB9F41F36A7780099E626 /* CoreData_Contact_App_06_08_2017.xcdatamodeld */; };
 		828BB9F81F36A7780099E626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 828BB9F71F36A7780099E626 /* Assets.xcassets */; };
 		828BB9FB1F36A7780099E626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828BB9F91F36A7780099E626 /* LaunchScreen.storyboard */; };
+		828BBA031F36A90C0099E626 /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828BBA021F36A90C0099E626 /* ContactTableViewController.swift */; };
+		828BBA051F36A9290099E626 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828BBA041F36A9290099E626 /* ContactTableViewCell.swift */; };
+		828BBA071F36AD860099E626 /* DetailContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828BBA061F36AD860099E626 /* DetailContactTableViewController.swift */; };
+		828BBA091F36B1860099E626 /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828BBA081F36B1860099E626 /* AddEditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		828BB9EA1F36A7780099E626 /* CoreData-Contact-App-06-08-2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreData-Contact-App-06-08-2017.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		828BB9ED1F36A7780099E626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		828BB9EF1F36A7780099E626 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		828BB9F21F36A7780099E626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		828BB9F51F36A7780099E626 /* CoreData_Contact_App_06_08_2017.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData_Contact_App_06_08_2017.xcdatamodel; sourceTree = "<group>"; };
 		828BB9F71F36A7780099E626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		828BB9FA1F36A7780099E626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		828BB9FC1F36A7780099E626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		828BBA021F36A90C0099E626 /* ContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
+		828BBA041F36A9290099E626 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		828BBA061F36AD860099E626 /* DetailContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailContactTableViewController.swift; sourceTree = "<group>"; };
+		828BBA081F36B1860099E626 /* AddEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				828BB9ED1F36A7780099E626 /* AppDelegate.swift */,
-				828BB9EF1F36A7780099E626 /* ViewController.swift */,
 				828BB9F11F36A7780099E626 /* Main.storyboard */,
 				828BB9F71F36A7780099E626 /* Assets.xcassets */,
 				828BB9F91F36A7780099E626 /* LaunchScreen.storyboard */,
 				828BB9FC1F36A7780099E626 /* Info.plist */,
 				828BB9F41F36A7780099E626 /* CoreData_Contact_App_06_08_2017.xcdatamodeld */,
+				828BBA021F36A90C0099E626 /* ContactTableViewController.swift */,
+				828BBA041F36A9290099E626 /* ContactTableViewCell.swift */,
+				828BBA061F36AD860099E626 /* DetailContactTableViewController.swift */,
+				828BBA081F36B1860099E626 /* AddEditViewController.swift */,
 			);
 			path = "CoreData-Contact-App-06-08-2017";
 			sourceTree = "<group>";
@@ -99,7 +108,7 @@
 				TargetAttributes = {
 					828BB9E91F36A7780099E626 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = TKR2QX32K8;
+						DevelopmentTeam = 87WT7A65MC;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,9 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				828BBA051F36A9290099E626 /* ContactTableViewCell.swift in Sources */,
 				828BB9F61F36A7780099E626 /* CoreData_Contact_App_06_08_2017.xcdatamodeld in Sources */,
-				828BB9F01F36A7780099E626 /* ViewController.swift in Sources */,
+				828BBA091F36B1860099E626 /* AddEditViewController.swift in Sources */,
 				828BB9EE1F36A7780099E626 /* AppDelegate.swift in Sources */,
+				828BBA031F36A90C0099E626 /* ContactTableViewController.swift in Sources */,
+				828BBA071F36AD860099E626 /* DetailContactTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +275,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TKR2QX32K8;
+				DEVELOPMENT_TEAM = 87WT7A65MC;
 				INFOPLIST_FILE = "CoreData-Contact-App-06-08-2017/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hrd.CoreData-Contact-App-06-08-2017";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,8 +289,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TKR2QX32K8;
+				DEVELOPMENT_TEAM = 87WT7A65MC;
 				INFOPLIST_FILE = "CoreData-Contact-App-06-08-2017/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hrd.CoreData-Contact-App-06-08-2017";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +318,7 @@
 				828BBA011F36A7780099E626 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
